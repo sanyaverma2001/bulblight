@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: blanchedalmond;
+        }
+        .container {
+            margin: auto;
+            width: 100%;
+            /* border: 1px solid green; */
+            /* padding: 10px; */
+            text-align: center;
+
+        }
+        .bt{
+            
+            padding: 4px;
+            height: 34pxpx;
+            width: 104px;
+            text-transform: uppercase;
+            background-color: rgb(248, 95, 95);
+            border: 2px solid black;
+        }
+        .bt:hover{
+            background-color: chartreuse;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <!-- <img src="https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg" alt="" id="bulboff" style="width: 400px; height: 300px;"> -->
+    <center><h1> LIGHT BULB</h1></center>
+    <div class="container">
+        <button
+            onclick="document.getElementById('bulboff').src='https://previews.123rf.com/images/murika/murika1511/murika151100069/48123160-bright-glowing-incandescent-light-bulb-on-a-white-background.jpg'"
+            class="bt">
+
+            ON</button>
+        <img src="https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg"
+            alt="" id="bulboff" style="width: 400px; height: 300px;">
+        <button
+            onclick="document.getElementById('bulboff').src='https://previews.123rf.com/images/ericmilos/ericmilos0912/ericmilos091200136/6109526-3d-render-of-light-bulb-on-white.jpg'"
+            class="bt">
+
+            OFF</button>
+    </div>
+</body>
+
+</html>
